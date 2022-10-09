@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style src="./productsAndPrices.css"></style>
+  </head>
+  <body>
+    <h3>Products</h3>
+    <table id="tablelist">
+      <tr>
+        <th>Name</th>
+        <th>Size/Color</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Duffle Bag</td>
+        <td>
+          <label
+            >Select Size
+            <select placeholder="Select Items" id="bag">
+              <option selected>Select</option>
+              <option value="1000">Small</option>
+              <option value="2000">Medium</option>
+              <option value="3000">Large</option>
+            </select>
+          </label>
+        </td>
+        <td id="bagPrice"></td>
+      </tr>
+      <tr>
+        <td>T-shirts</td>
+        <td>
+          <label>Select Color
+            <select placeholder="Select Items" id="size">
+              <option selected>Select</option>
+              <option value="1500">Lightgrey</option>
+              <option value="2599">Black</option>
+              <option value="5900">White</option>
+            </select>
+          </label>
+        </td>
+        <td id="shirtPrice"></td>
+      </tr>
+      <tr> 
+        <td>Jeans</td>
+        <td>
+          <label>Select Type
+            <select placeholder="Select Items" id="jeans">
+              <option selected>Select</option>
+              <option value="3000">Small Skin Fit</option>
+              <option value="3500">Medium Trim Fit</option>
+              <option value="4000">Large Loose Fit</option>
+            </select>
+          </label>
+        </td>
+        <td id="jeanPrice"></td>
+      </tr>
+      <tr>
+        <td>Trousers</td>
+        <td>
+          <label
+            >Select Size
+            <select placeholder="Select Items" id="trouser">
+              <option selected>Select</option>
+              <option value="1990">Small</option>
+              <option value="2900">Medium</option>
+              <option value="3990">Large</option>
+            </select>
+          </label>
+        </td>
+        <td id="trouserPrice"></td>
+      </tr>
+    </table>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./productsAndPrices.js"></script>
+</html>

@@ -1,0 +1,39 @@
+
+table {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  margin-left: 10%;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+td {
+  margin-left: 10%;
+  padding: 10px;
+  justify-content: center;
+}
+#tablelist td{
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tablelist tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tablelist tr:hover {
+  background-color: #ddd;
+}
+
+#tablelist th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}

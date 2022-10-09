@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.table{
+    margin: 5%;
+    padding: 5%;
+    width: 50%;
+}
+.tr{
+    padding: 2px;
+    margin: 1px;
+}
+.td{
+    padding: 2px;
+    margin:1px;
+}

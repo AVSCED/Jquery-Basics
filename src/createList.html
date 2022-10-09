@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style src="./createList.css"></style>
+  </head>
+  <body>
+    <h3>Product List</h3>
+    <ul>
+      <li>Clothes <button id="addClothes" onclick="addCLothes()">+</button></li>
+      <ul>
+        <li>
+          <a>T-shirts</a>
+          <button id="addTshirts" onclick="addTShirts()">+</button>
+        </li>
+        <li>
+          <a>Trousers</a>
+          <button id="addTrousers" onclick="addTRousers()">+</button>
+        </li>
+      </ul>
+      <li>
+        Electronics
+        <button id="addElectronics" onclick="addELectronics()">+</button>
+      </li>
+      <ul>
+        <li>
+          <a>Mobiles</a>
+          <button id="addMobiles" onclick="addMObiles()">+</button>
+        </li>
+        <li><a>Tabs</a> <button id="addTabs" onclick="addTAbs()">+</button></li>
+      </ul>
+    </ul>
+    <ul id="added"></ul>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./createList.js"></script>
+</html>
