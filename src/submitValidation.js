@@ -1,5 +1,6 @@
 $(document).ready(function(){})
 function validate(){
+    
     var firstName =$("#fName").val();
 
     var lastName =$("#lName").val();
