@@ -10,4 +10,8 @@ setTimeout(function(){
   $(".test :first-child").css({ color: "red" }),
   $(".test :last-child").css({ color: "red" })
 },5000);
+setTimeout(function(){
+  $(".test :first-child").css({ display: "none" }),
+  $(".test :last-child").css({ display: "none" })
+},10000);
 });

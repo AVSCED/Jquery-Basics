@@ -46,20 +46,20 @@ $(document).on("click",".clothes" ,function (){
     $("#field1").after('<ul><a href="#"><li>Clothes<button type="button" class="clothes">+</button></li></a><ul><a href="#"><li class="one1">T-shirts<button type="button" class="tshirts">+</button></li></a></ul><ul><a href="#"><li class="one2">Trousers<button type="button" class="trousers">+</button></li></a></ul></ul>');
 });
 $(document).on("click" ,".tshirts",function(){
-    $(".one1").append('<ul><a href="#"><li class="one1">T-shirts<button type="button" class="tshirts">+</button></li></a></ul>');
+    $(".one1").append('<li class="one1">T-shirts<button type="button" class="tshirts">+</button></li>');
 });
 
 $(document).on("click",".trousers",function(){
-    $(".one2").append('<ul><a href="#"><li class="one2">Trousers<button type="button" class="trousers">+</button></li></a></ul>');
+    $(".one2").append('<li class="one2">Trousers<button type="button" class="trousers">+</button></li>');
 });
 $(document).on("click",".electronics" ,function (){
 
     $("#field2").after('<ul><a href="#"><li>Electronics<button type="button" class="electronics">+</button></li></a> <ul><a href="#"><li class="mbs">Mobile<button type="button" class="mobile">+</button></li></a></ul><ul><a href="#"><li class="tbs">Tabs<button type="button" class="tabs">+</button></li></a></ul></ul>');
 });
 $(document).on("click" ,".mobile",function(){
-    $(".mbs").append(' <ul><a href="#"><li class="mbs">Mobile<button type="button" class="mobile">+</button></li></a></ul>');
+    $(".mbs").append(' <li class="mbs">Mobile<button type="button" class="mobile">+</button></li>');
 });
 
 $(document).on("click",".tabs",function(){
-    $(".tbs").append('<ul><a href="#"><li class="tbs">Tabs<button type="button" class="tabs">+</button></li></a></ul>');
+    $(".tbs").append('<li class="tbs">Tabs<button type="button" class="tabs">+</button></li>');
 });
